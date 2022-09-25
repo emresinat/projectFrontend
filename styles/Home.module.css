@@ -1,0 +1,115 @@
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: purple;
+  padding: 2rem;
+  color: white;
+  font-size: 18px;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  font-size: 26;
+  margin-top: 10rem;
+}
+
+.navbarItem {
+  cursor: pointer;
+}
+
+.formCard{
+  width: 200px;
+  height: fit-content;
+  position: absolute;
+  background-color: purple;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  margin: auto;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+.input{
+  width: 150px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.inputFieldPassowrd {
+  margin-top: 1rem;
+}
+
+.buttonField {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputButton{
+  background-color: white;
+  width: 75px;
+  height: 30px;
+  margin-right: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.changeFormText {
+  margin-top: 1rem;
+}
+
+.changeFormText:hover{
+  color: #c6bfde;
+  cursor: pointer;
+}
+
+.inputError {
+  color: #cbc3d4;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  margin: 0.5rem;
+}
+
+.productTable {
+  margin: auto;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c2d4ed;
+}
+
+.productTableItem {
+  border: solid;
+  border-color: #c8d2e0;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #7e8096;
+  cursor: pointer;
+}
+
+.productTableHeader {
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.orderTable {
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  background-color: #ccffff;
+  cursor: pointer;
+}
+
+.orderHeader {
+  display: flex;
+}
+
+.orderHeaderItem {
+  padding: 0.5rem;
+}
